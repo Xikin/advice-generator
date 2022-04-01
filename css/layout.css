@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    box-shadow: 1rem 1rem 1rem transparent;
+}
+.card{
+    background-color: hsl(217, 19%, 24%);
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 2rem;
+    flex-direction: column;
+    width: 35rem;
+}
+
+h2{
+    color: hsl(150, 100%, 66%);
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p {
+    color: hsl(193, 38%, 86%);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+img{
+    padding:2rem 0 2rem 0;
+    width: auto;
+    
+}
+
+.bnt-random{
+    position: relative;
+    background-color: hsl(150, 100%, 66%);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    left: calc(50% - 2.5rem);
+    top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.bnt-random:hover{
+    filter: brightness(100%);
+    opacity: 2;
+}
